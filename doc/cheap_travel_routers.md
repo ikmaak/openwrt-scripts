@@ -1,4 +1,4 @@
-## El cheapo OpenWRT travel routers lineup
+## El cheapo OpenWrt travel routers lineup
 
 Where to buy? AliExpress, BangGood, eBay...
 
