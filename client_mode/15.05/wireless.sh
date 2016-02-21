@@ -1,5 +1,3 @@
-## See README.md for more info on what this does
-
 # reset the config
 firstboot
 reboot -f
