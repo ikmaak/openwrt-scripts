@@ -29,7 +29,7 @@ uci set wireless.radio0.disabled='0'
 uci set wireless.@wifi-device[0].disabled=0
 uci set wireless.@wifi-iface[0].network=lan
 uci set wireless.@wifi-iface[0].mode=sta
-uci set wireless.@wifi-iface[0].ssid="Telecom-12345678"
+uci set wireless.@wifi-iface[0].ssid="MySSID"
 uci set wireless.@wifi-iface[0].encryption="psk2"
 uci set wireless.@wifi-iface[0].key="MyVeryPrivatePassword"
 
