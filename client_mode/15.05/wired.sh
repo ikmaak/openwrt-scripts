@@ -19,8 +19,8 @@ fw3 stop
 uci delete network.lan
 uci delete network.wan
 uci delete network.wan6
-for entry in `uci show firewall -X | cut -d = -f 1`; do uci -q delete $entry; done
-for entry in `uci show dhcp -X | cut -d = -f 1`; do uci -q delete $entry; done
+for entry in `uci -X show firewall | cut -d = -f 1`; do uci -q delete $entry; done
+for entry in `uci -X show dhcp | cut -d = -f 1`; do uci -q delete $entry; done
 
 # load new config
 uci set network.lan=interface
